@@ -1,0 +1,47 @@
+header{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    margin-bottom: 5vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+nav ul a{
+    color: white;
+}
+.button_blue{
+    width: 302px;
+    height: 95px;
+    background-color: #5C8EE5;
+}
+.main_header{
+    color: white;
+    width: 80%;
+    height: 60%;
+}
+h1{
+    font-size: 80px;
+}
+.main_header{
+    font-size: 16px;
+}
