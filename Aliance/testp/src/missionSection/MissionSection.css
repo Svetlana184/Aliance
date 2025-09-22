@@ -1,0 +1,24 @@
+.title_mission{
+    font-size: 60px;
+    border-top:#5C8EE5 3px solid;
+    width: 70%;
+}
+.mission_sectoin p{
+    color: #828A99;
+    font-size: 16px;
+}
+.mission_sectoin{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+.mission_sectoin img{
+    width: 840px;
+    height: 660px;
+}
+.mis_main{
+    width: 40%;
+}

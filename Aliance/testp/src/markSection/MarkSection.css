@@ -1,0 +1,40 @@
+.title_mark{
+    font-size: 60px;
+    border-top:#5C8EE5 3px solid;
+    width: 70%;
+}
+.mark_section{
+    width: 80%;
+    height: 40vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mark_section ul{
+    width: 100%;
+    height: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mark_card{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mark_card img{
+    width: 180px;
+    height: 180px;
+}
+
+.mark_card h5{
+    font-size: 28px;
+}
+.mark_card p{
+    color: #828A99;
+    font-size: 16px;
+}

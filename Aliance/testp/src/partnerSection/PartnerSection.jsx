@@ -1,9 +1,13 @@
+import './PartnerSection.css'
+import pic from '../assets/p_pic.png'
+
 export default function PartnerSection(){
     return(
         <section className="PartnerSection">
-            <div>
-                <h2>Производим аэрозольную продукцию для разных сфер</h2>
-                <ul>
+            <div className='p_main'>
+                <h2 className='title_partner'>Производим аэрозольную продукцию для разных сфер</h2>
+                <div>
+<ul>
                     <li>
                         <img src="" alt="" />
                         <p>Химические производства</p>
@@ -20,7 +24,9 @@ export default function PartnerSection(){
                         <img src="" alt="" />
                         <p>Лаки и краски</p>
                     </li>
-                    <li>
+                    
+                </ul>
+                <ul><li>
                         <img src="" alt="" />
                         <p>Косметические средства</p>
                     </li>
@@ -43,10 +49,11 @@ export default function PartnerSection(){
                     <li>
                         <img src="" alt="" />
                         <p>И многих других</p>
-                    </li>
-                </ul>
+                    </li></ul>
+                </div>
+                
             </div>
-            <img src="" alt="" />
+            <img className='p_pic' src={pic} alt="" />
         </section>
     )
 }

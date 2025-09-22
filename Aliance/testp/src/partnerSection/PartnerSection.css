@@ -1,0 +1,29 @@
+.title_partner{
+    font-size: 50px;
+    border-top:#5C8EE5 3px solid;
+    width: 90%;
+}
+.PartnerSection{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.p_pic{
+    width: 720px;
+    height: 480px;
+}
+.p_main{
+    width: 60%;
+}
+.p_main div{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}

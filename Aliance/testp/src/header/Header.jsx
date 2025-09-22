@@ -1,10 +1,11 @@
 import './Header.css'
+import myLogo from '../assets/logo.png'
 
 export default function Header(){
     return(
         <header>
             <nav>
-                <img src="" alt="" />
+                <img src={myLogo} alt="" />
                 <ul>
                     <li><a href="">О компании</a></li>
                     <li><a href="">Контактное производство</a></li>
@@ -19,10 +20,10 @@ export default function Header(){
             <button className='button_blue'>Получить консультацию</button>
             </nav>
             <div className='main_header'>
-                <h1>Комплексное обеспечение товарами и расходными материалами бизнеса</h1>
+                <h1>Комплексное обеспечение товарами и расходными материалами бизнеса</h1>
                 <p>Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.</p>
-                <button></button>
-                <ul>
+                <button className='button_blue'>Подробнее о компании</button>
+                {/* <ul>
                     <li>
                         <img src="" alt="" />
                         <p></p>
@@ -43,7 +44,7 @@ export default function Header(){
                         <img src="" alt="" />
                         <p></p>
                     </li>
-                </ul>
+                </ul> */}
             </div>
         </header>
     )

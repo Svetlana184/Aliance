@@ -1,8 +1,14 @@
+import './Footer.css'
+
 export default function Footer(){
     return(
         <footer>
-            <ul></ul>
-            <div>
+            <ul className="simp_ul">
+                <p>+7 (499) 686-10-14</p>
+                <p>г. Мосвка, Холодильный пер. 4к1с8</p>
+                <p>a.dragunov@tdaliance.ru</p>
+            </ul>
+            <div className='foot_main'>
                 <ul>
                     <li>
                         <a href="#">Контрактное производство</a>
@@ -51,7 +57,11 @@ export default function Footer(){
                     </li>
                 </ul>
             </div>
-            <ul></ul>
+            <ul className="simp_ul">
+                <p>© 2022 «Aliance Production». Все права защищены.</p>
+                <p>Политики конфиденциальности</p>
+                <p>Сделано в</p>
+            </ul>
         </footer>
     )
 }

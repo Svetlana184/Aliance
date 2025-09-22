@@ -1,0 +1,34 @@
+.title_blog{
+    font-size: 50px;
+    border-top:#5C8EE5 3px solid;
+    width: 90%;
+}
+.blog_section{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards{
+   height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog_card{
+    background-image: url(../assets/blog_pic.png);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+.blog_card h5{
+    font-size: 28px;
+}
