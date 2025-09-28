@@ -1,0 +1,71 @@
+header{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    margin-bottom: 5vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+.button_blue{
+    width: 302px;
+    height: 95px;
+    background-color: #5C8EE5;
+    color: white;
+    border: none;
+}
+.main_header{
+    color: white;
+    width: 80%;
+    height: 60%;
+    margin-top: 10vh;
+}
+h1{
+    font-size: 80px;
+}
+.main_header{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.phone{
+    display: flex;
+    width:9%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.phone img{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    padding: 10px;
+    margin-left: 2vw;
+}

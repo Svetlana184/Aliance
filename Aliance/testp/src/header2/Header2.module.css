@@ -1,0 +1,56 @@
+.header2{
+    width: 100vw;
+    height: 9vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background-image: none;
+    border: none;
+    margin: 0;
+}
+.nav2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+.nav2 ul a{
+    color: black;
+}
+.button_blue{
+    width: 302px;
+    height: 95px;
+    background-color: #5C8EE5;
+    color: white;
+    border: none;
+}
+.phone{
+    display: flex;
+    width:9%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.phone img{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    padding: 10px;
+    margin-left: 2vw;
+}

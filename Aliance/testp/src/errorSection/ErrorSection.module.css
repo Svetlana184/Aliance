@@ -1,0 +1,28 @@
+.button_blue{
+    width: 302px;
+    height: 76px;
+    background-color: #5C8EE5;
+    color: white;
+    border: none;
+
+    
+}
+.error_sec{
+    width: 40%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10vh;
+        color: #292D33;
+}
+.error_sec h1{
+    font-size: 300px;
+    color: #5C8EE5;
+}
+.error_sec h5{
+
+    font-size: 28px;
+}
