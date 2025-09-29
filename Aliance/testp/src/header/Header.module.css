@@ -25,7 +25,7 @@ nav ul{
     list-style: none;
     width: 40%;
 }
-nav ul a{
+.li_link{
     color: white;
     text-decoration: none;
 }

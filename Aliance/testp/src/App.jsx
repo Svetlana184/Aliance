@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import './App.css'
 import StepSection from './stepSection/StepSection'
 import PartnerSection from './partnerSection/PartnerSection'
@@ -14,6 +14,7 @@ import ProductionSection  from './productionSection/ProductionSection';
 import MissionFactorySection from './missionFactorySection/MissionFactorySection';
 import PolSection from './polSection/PolSection';
 import ErrorSection from './errorSection/ErrorSection';
+import Footer from './footer/Footer';
 
 export default function App() {
   return (
@@ -116,6 +117,7 @@ export default function App() {
           </main>
         }/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
