@@ -1,54 +1,21 @@
 import './ContractSection.css'
-import chim from '../assets/avto-him.png'
+import {himicats} from '../data.js'
 
 export default function ContractSection(){
+    const cards = himicats.map((index)=> 
+    <li className='card_contract' key={index}>
+                 <div>
+                         <h5>{index.title}</h5>
+                    <p>{index.text}</p>
+                    </div>
+                   
+                    <img src={index.img} alt="" />
+    </li>)
     return(
         <section className="contract_section">
             <h2 className="title_contract">Контрактное производство</h2>
             <ul>
-                <li className='card_contract'>
-                    <div>
-                         <h5>Автомобильная химия</h5>
-                    <p>Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-                    </div>
-                   
-                    <img src={chim} alt="" />
-                </li>
-                <li className='card_contract'>
-                     <div>
-                         <h5>Автомобильная химия</h5>
-                    <p>Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-                    </div>
-                    <img src={chim} alt="" />
-                </li>
-                <li className='card_contract'>
-                     <div>
-                         <h5>Автомобильная химия</h5>
-                    <p>Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-                    </div>
-                    <img src={chim} alt="" />
-                </li>
-                <li className='card_contract'>
-                    <div>
-                         <h5>Автомобильная химия</h5>
-                    <p>Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-                    </div>
-                    <img src={chim} alt="" />
-                </li>
-                <li className='card_contract'>
-                    <div>
-                         <h5>Автомобильная химия</h5>
-                    <p>Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-                    </div>
-                    <img src={chim} alt="" />
-                </li>
-                <li className='card_contract'>
-                     <div>
-                         <h5>Автомобильная химия</h5>
-                    <p>Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-                    </div>
-                    <img src={chim} alt="" />
-                </li>
+               {cards}
             </ul>
         </section>
     )
