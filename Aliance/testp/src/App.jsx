@@ -19,7 +19,7 @@ import SeoSection from './seoSection/SeoSection';
 import IconSection from './iconSection/IconSection';
 import MissionChim from './missionChim/MissionChim';
 import CenterSection from './centerSection/CenterSection.jsx';
-import {mission2, prod, chim, ag_tech} from './data.js'
+import {mission2, prod, chim, ag_tech, chim_create, mission1} from './data.js'
 
 export default function App() {
   return (
@@ -45,7 +45,7 @@ export default function App() {
               <SingleBlock title="о компании"/>
               <ProductionSection></ProductionSection>
               <IconSection></IconSection>
-              <MissionFactorySection></MissionFactorySection>
+              <MissionFactorySection title={mission1.title} text1={mission1.text1} text2={mission1.text2}></MissionFactorySection>
               <MissionSection title={mission2.title} text1={mission2.text1} text2={mission2.text2} image={mission2.img}></MissionSection>
               <CenterSection></CenterSection>
               <PartnerSection></PartnerSection>
@@ -68,6 +68,7 @@ export default function App() {
              <SingleBlock title="Автомобильная химия"/>
              <MissionChim title={chim.title} text1={chim.text1} text2={chim.text2} image={chim.img}></MissionChim>
              <IconSection/>
+             <MissionFactorySection title={chim_create.title} text1={chim_create.text1} text2={chim_create.text2} img={chim_create.img}></MissionFactorySection>
               <StepSection></StepSection>
               <PartnerSection></PartnerSection>
               <OfferSection></OfferSection>
