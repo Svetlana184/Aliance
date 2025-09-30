@@ -45,7 +45,7 @@ export default function App() {
               <SingleBlock title="о компании"/>
               <ProductionSection></ProductionSection>
               <IconSection></IconSection>
-              <MissionFactorySection title={mission1.title} text1={mission1.text1} text2={mission1.text2}></MissionFactorySection>
+              <MissionFactorySection title={mission1.title} text1={mission1.text1} text2={mission1.text2} img={mission1.img}></MissionFactorySection>
               <MissionSection title={mission2.title} text1={mission2.text1} text2={mission2.text2} image={mission2.img}></MissionSection>
               <CenterSection></CenterSection>
               <PartnerSection></PartnerSection>
@@ -69,6 +69,7 @@ export default function App() {
              <MissionChim title={chim.title} text1={chim.text1} text2={chim.text2} image={chim.img}></MissionChim>
              <IconSection/>
              <MissionFactorySection title={chim_create.title} text1={chim_create.text1} text2={chim_create.text2} img={chim_create.img}></MissionFactorySection>
+              <CenterSection/>
               <StepSection></StepSection>
               <PartnerSection></PartnerSection>
               <OfferSection></OfferSection>
