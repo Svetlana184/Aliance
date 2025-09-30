@@ -1,55 +1,29 @@
 import './PartnerSection.css'
 import pic from '../assets/p_pic.png'
+import {partner_icons_sr, partner_icons_k} from '../data.js'
 
 export default function PartnerSection(){
+    const li_icons_sr = partner_icons_sr.map((index)=>
+        <li>
+            <img src={index.image} alt="" />
+            <p>{index.text}</p>
+        </li>
+    )
+    const li_icons_k = partner_icons_k.map((index)=>
+        <li>
+            <img src={index.image} alt="" />
+            <p>{index.text}</p>
+        </li>
+    )
     return(
         <section className="PartnerSection">
             <div className='p_main'>
                 <h2 className='title_partner'>Производим аэрозольную продукцию для разных сфер</h2>
                 <div>
-<ul>
-                    <li>
-                        <img src="" alt="" />
-                        <p>Химические производства</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" />
-                        <p>Автомойки</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" />
-                        <p>Пищевая продукция</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" />
-                        <p>Лаки и краски</p>
-                    </li>
-                    
+                <ul>
+                  {li_icons_sr}
                 </ul>
-                <ul><li>
-                        <img src="" alt="" />
-                        <p>Косметические средства</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" />
-                        <p>Автомобильная косметика</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" />
-                        <p>Косметика по уходу за одеждой</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" />
-                        <p>Косметика по уходу за обувью</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" />
-                        <p>Строительные материалы</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" />
-                        <p>И многих других</p>
-                    </li></ul>
+                <ul>{li_icons_k}</ul>
                 </div>
                 
             </div>

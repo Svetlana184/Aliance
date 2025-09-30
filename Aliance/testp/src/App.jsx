@@ -15,6 +15,11 @@ import MissionFactorySection from './missionFactorySection/MissionFactorySection
 import PolSection from './polSection/PolSection';
 import ErrorSection from './errorSection/ErrorSection';
 import Footer from './footer/Footer';
+import SeoSection from './seoSection/SeoSection';
+import IconSection from './iconSection/IconSection';
+import MissionChim from './missionChim/MissionChim';
+import CenterSection from './centerSection/CenterSection.jsx';
+import {mission2, prod, chim, ag_tech} from './data.js'
 
 export default function App() {
   return (
@@ -27,7 +32,7 @@ export default function App() {
               <StepSection></StepSection>
             <ContractSection></ContractSection>
             <MarkSection></MarkSection>
-            <MissionSection></MissionSection>
+            <MissionSection title={mission2.title} text1={mission2.text1} text2={mission2.text2} image={mission2.img}></MissionSection>
             <PartnerSection></PartnerSection>
             <BlogSection></BlogSection>
             <OfferSection></OfferSection>
@@ -39,9 +44,12 @@ export default function App() {
               <Header2></Header2>
               <SingleBlock title="о компании"/>
               <ProductionSection></ProductionSection>
+              <IconSection></IconSection>
               <MissionFactorySection></MissionFactorySection>
-              <MissionSection></MissionSection>
+              <MissionSection title={mission2.title} text1={mission2.text1} text2={mission2.text2} image={mission2.img}></MissionSection>
+              <CenterSection></CenterSection>
               <PartnerSection></PartnerSection>
+              
               <OfferSection></OfferSection>
           </main>
         }/>
@@ -50,13 +58,16 @@ export default function App() {
             <Header2></Header2>
              <SingleBlock title="Контрактное производство"/>
               <ContractSection></ContractSection>
+              <SeoSection></SeoSection>
               <OfferSection></OfferSection>
           </main>
         }/>
         <Route path="/product_avtohim" element={
           <main>
             <Header2></Header2>
-             <SingleBlock title="Автмобильная химия"/>
+             <SingleBlock title="Автомобильная химия"/>
+             <MissionChim title={chim.title} text1={chim.text1} text2={chim.text2} image={chim.img}></MissionChim>
+             <IconSection/>
               <StepSection></StepSection>
               <PartnerSection></PartnerSection>
               <OfferSection></OfferSection>
@@ -74,6 +85,8 @@ export default function App() {
           <main>
             <Header2></Header2>
              <SingleBlock title="Автохимия AG_TECH"/>
+              <MissionChim title={ag_tech.title} text1={ag_tech.text1} text2={ag_tech.text2} image={ag_tech.img}></MissionChim>
+             <IconSection/>
               <StepSection></StepSection>
               <PartnerSection></PartnerSection>
               <OfferSection></OfferSection>

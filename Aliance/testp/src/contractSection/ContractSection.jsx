@@ -2,6 +2,8 @@ import './ContractSection.css'
 import {himicats} from '../data.js'
 
 export default function ContractSection(){
+
+
     const cards = himicats.map((index)=> 
     <li className='card_contract' key={index}>
                  <div>

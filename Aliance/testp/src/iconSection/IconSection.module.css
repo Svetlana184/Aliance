@@ -1,0 +1,21 @@
+.icon_sec{
+    width: 80%;
+    height: 40vh;
+}
+.ul_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.ul_icon li{
+    border: #d3d3d3 1px solid;
+    width: 288px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px;
+    font-size: 18px;
+}
