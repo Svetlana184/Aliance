@@ -1,5 +1,6 @@
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import './App.css'
+import AboutSection from './aboutSection/AboutSection.jsx'
 import StepSection from './stepSection/StepSection'
 import PartnerSection from './partnerSection/PartnerSection'
 import OfferSection from './offerSection/OfferSection'
@@ -7,8 +8,8 @@ import MissionSection from './missionSection/MissionSection'
 import MarkSection from './markSection/MarkSection'
 import ContractSection from './contractSection/ContractSection'
 import BlogSection from './blogSection/BlogSection'
+import Header from './header/Header';
 import Header2 from './header2/Header2';
-import Header from './header/Header'
 import SingleBlock from './singleBlock/SingleBlock';
 import ProductionSection  from './productionSection/ProductionSection';
 import MissionFactorySection from './missionFactorySection/MissionFactorySection';
@@ -19,7 +20,8 @@ import SeoSection from './seoSection/SeoSection';
 import IconSection from './iconSection/IconSection';
 import MissionChim from './missionChim/MissionChim';
 import CenterSection from './centerSection/CenterSection.jsx';
-import {mission2, prod, chim, ag_tech, chim_create, mission1} from './data.js'
+
+import {mission2, chim, ag_tech, chim_create, mission1} from './data.js'
 
 export default function App() {
   return (
@@ -27,9 +29,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={
           <>
+          <main>
             <Header></Header>
-            <main>
-              <StepSection></StepSection>
+            <AboutSection></AboutSection>
+            <StepSection></StepSection>
             <ContractSection></ContractSection>
             <MarkSection></MarkSection>
             <MissionSection title={mission2.title} text1={mission2.text1} text2={mission2.text2} image={mission2.img}></MissionSection>

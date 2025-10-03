@@ -7,7 +7,10 @@ export default function CenterSection(){
    )
     return(
         <section className={styles.center_sec}>
-            <h3 className={styles.title_center}>{center.title}</h3>
+            <div className="title_block_blue">
+                <div className='title_block_blue_div'></div>
+                <h3 >{center.title}</h3>
+            </div>
             <div className={styles.center_text}>
                 <p>{center.text1}</p>
                 <p>{center.text2}</p>

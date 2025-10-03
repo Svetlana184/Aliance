@@ -38,3 +38,29 @@
     color: #828A99;
     font-size: 16px;
 }
+
+.mark_card:hover h5{
+    color: #5C8EE5;
+}
+
+.img_div1{
+    width: 180px;
+    height: 180px;
+    background-image: url('../assets/AGTECH.png');
+    background-size: contain;
+}
+
+.img_div2{
+    width: 180px;
+    height: 180px;
+     background-image: url('../assets/mark1.png');
+    background-size: contain;
+}
+.mark_text{
+    width: 60%;
+}
+
+
+.mark_card:hover .img_div2{
+     background-image: url('../assets/mark_1_blue.png');
+}

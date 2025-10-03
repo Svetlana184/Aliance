@@ -14,7 +14,7 @@
     width: 100%;
     text-transform: uppercase;
 }
-.pr_section div{
+.pr_div{
     width: 40%;
     height: 80%;
     display: flex;

@@ -108,11 +108,11 @@ export const ag_tech={
 }
 export const partner_icons_sr = [
     {
-        image:"",
+        image:"../src/assets/chim.png",
         text:"Химические производства"
     },
     {
-        image:"",
+        image:"../src/assets/chim.png",
         text:"Автомойки"
     },
     {

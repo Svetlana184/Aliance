@@ -3,7 +3,10 @@ import styles from './BlogSection.module.css'
 export default function BlogSection(){
     return(
         <section className={styles.blog_section}>
-            <h2 className={styles.title_blog}>Блог экспертов в области производства</h2>
+             <div className="title_block_blue">
+                            <div className='title_block_blue_div'></div>
+                            <h3 >Блог экспертов в области производства</h3>
+                        </div>
             <div className={styles.cards}>
                 <div className={styles.blog_card}>
                     <h5>

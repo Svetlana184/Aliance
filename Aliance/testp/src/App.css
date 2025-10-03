@@ -9,3 +9,14 @@ main{
   flex-direction: column;
   align-items: center;
 }
+
+.title_block_blue{
+  font-size: 50px;
+  color: #292D33;
+  text-transform: uppercase;
+}
+.title_block_blue_div{
+  width: 150px;
+  height: 2px;
+  background-color: #5C8EE5;
+}

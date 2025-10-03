@@ -1,5 +1,4 @@
 import './PartnerSection.css'
-import pic from '../assets/p_pic.png'
 import {partner_icons_sr, partner_icons_k} from '../data.js'
 
 export default function PartnerSection(){
@@ -18,7 +17,10 @@ export default function PartnerSection(){
     return(
         <section className="PartnerSection">
             <div className='p_main'>
-                <h2 className='title_partner'>Производим аэрозольную продукцию для разных сфер</h2>
+                <div className="title_block_blue">
+                            <div className='title_block_blue_div'></div>
+                            <h3 >Производим аэрозольную продукцию для разных сфер</h3>
+                        </div>
                 <div>
                 <ul>
                   {li_icons_sr}
@@ -27,7 +29,17 @@ export default function PartnerSection(){
                 </div>
                 
             </div>
-            <img className='p_pic' src={pic} alt="" />
+            <ul className='pics'>
+                <li><div></div></li>
+               <li><div></div></li>
+               <li><div></div></li>
+               <li><div></div></li>
+               <li><div></div></li>
+               <li><div></div></li>
+               <li><div></div></li>
+               <li><div></div></li>
+               <li><div></div></li>
+            </ul>
         </section>
     )
 }

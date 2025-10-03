@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-top: 5vh;
 }
 .mission_sectoin img{
@@ -21,6 +22,10 @@
 }
 .mis_main{
     width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .mis_main h2{
     text-transform: uppercase;

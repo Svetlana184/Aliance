@@ -4,7 +4,10 @@ export default function StepSection(){
     return(
         <>
             <section className='step_section'> 
-                <h2 className='title_step'>Схема работы</h2>
+                <div className="title_block_blue">
+                            <div className='title_block_blue_div'></div>
+                            <h3 >Схема работы</h3>
+                        </div>
                 <ul className='step_ul'>
                     <li>
                         <h3>01</h3>

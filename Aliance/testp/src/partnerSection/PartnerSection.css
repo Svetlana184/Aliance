@@ -18,12 +18,34 @@
 .p_main{
     width: 60%;
 }
-.p_main div{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 ul{
     list-style: none;
+}
+
+.pics{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pics li{
+    width: 33%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.pics li div{
+    width: 70px;
+    height: 70px;
+     background-image: url('../assets/burger1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pics li:hover div{
+   background-image: url('../assets/burger_hover.png');
 }

@@ -15,7 +15,10 @@ export default function ContractSection(){
     </li>)
     return(
         <section className="contract_section">
-            <h2 className="title_contract">Контрактное производство</h2>
+            <div className="title_block_blue">
+                            <div className='title_block_blue_div'></div>
+                            <h3 >Контрактное производство</h3>
+                        </div>
             <ul>
                {cards}
             </ul>
