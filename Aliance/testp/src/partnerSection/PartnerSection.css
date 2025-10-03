@@ -10,6 +10,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 .p_pic{
     width: 720px;
@@ -17,6 +19,10 @@
 }
 .p_main{
     width: 60%;
+    height: 85%;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 ul{
@@ -48,4 +54,28 @@ ul{
 
 .pics li:hover div{
    background-image: url('../assets/burger_hover.png');
+}
+
+.p_ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 45%;
+}
+.ul_ic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.ul_ic li{
+    display: flex;
+    flex-direction: row;
+}
+
+.ul_ic img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }

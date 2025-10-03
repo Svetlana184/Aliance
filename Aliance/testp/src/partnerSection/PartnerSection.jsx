@@ -9,7 +9,7 @@ export default function PartnerSection(){
         </li>
     )
     const li_icons_k = partner_icons_k.map((index)=>
-        <li>
+        <li key={index}>
             <img src={index.image} alt="" />
             <p>{index.text}</p>
         </li>
@@ -21,12 +21,13 @@ export default function PartnerSection(){
                             <div className='title_block_blue_div'></div>
                             <h3 >Производим аэрозольную продукцию для разных сфер</h3>
                         </div>
-                <div>
-                <ul>
-                  {li_icons_sr}
-                </ul>
-                <ul>{li_icons_k}</ul>
+                <div className='p_ul'>
+                        <ul className='ul_ic'>
+                        {li_icons_sr}
+                         </ul>
+                        <ul className='ul_ic'>{li_icons_k}</ul>
                 </div>
+                
                 
             </div>
             <ul className='pics'>

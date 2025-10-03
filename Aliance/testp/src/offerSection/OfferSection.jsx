@@ -11,6 +11,18 @@ export default function OfferSection(){
                             <h3 >Хотите сотрудничать?</h3>
                         </div>
                 <p>Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
+            <div className='offer_forms'>
+                <form className='form_1'>
+                    <input type="text" name="name" placeholder='    Имя'/>
+                </form>
+                <form className='form_1'>
+                    <input type="text" name="name"/>
+                </form>
+            </div>
+            <div className='bottom_offer'>
+                <button>Отправить заявку</button>
+                <p>Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность информации!</p>
+            </div>
             </div>
         </section>
     )

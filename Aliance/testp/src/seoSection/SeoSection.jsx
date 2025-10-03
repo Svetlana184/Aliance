@@ -7,6 +7,7 @@ export default function SeoSection(){
                             
            <h4 >{seo.title}</h4>
             <p>{seo.text}</p>
+            <a href="">Читать больше</a>
         </section>
     )
 }

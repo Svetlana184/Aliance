@@ -14,7 +14,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 .mission_sectoin img{
     width: 840px;

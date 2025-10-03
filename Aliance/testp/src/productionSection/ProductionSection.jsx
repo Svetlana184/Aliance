@@ -6,7 +6,7 @@ export default function ProductionSection(){
     return(
         <section className={styles.pr_section}>
             <img src={img_1} alt="" />
-            <div className='pr_div'>
+            <div className={styles.pr_div}>
                 <div className="title_block_blue">
                             <div className='title_block_blue_div'></div>
                             <h3 >{prod.title}</h3>

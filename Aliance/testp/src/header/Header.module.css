@@ -9,7 +9,7 @@
     background-image: none;
     border: none;
     margin: 0;
-    position: fixed;
+    position: absolute;
 }
 .nav2{
     height: 100%;
