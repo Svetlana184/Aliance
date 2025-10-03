@@ -1,4 +1,5 @@
 import './MissionSection.css'
+import {Link} from 'react-router-dom';
 
 export default function MissionSection({title, text1, text2, image='../assets/mission_pic.png'}){
     return(
@@ -11,11 +12,11 @@ export default function MissionSection({title, text1, text2, image='../assets/mi
                         </div>
             <p>{text1}</p>
             <p>{text2}</p>
-            <div>
-                <div></div>
-                <a href="">Оставить заявку</a>
-            </div></div>
-            
+            <div className='link_blue'>
+                 <div></div>
+                <Link className='link_blue_text' to="#">Подробнее о компании</Link>
+            </div>
+            </div>
         </section>
     )
 }

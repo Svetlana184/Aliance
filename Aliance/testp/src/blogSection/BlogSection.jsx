@@ -1,6 +1,7 @@
 import styles from './BlogSection.module.css'
 import arrow_left from '../assets/arrow_to_left.svg'
 import arrow_right from '../assets/arrow_to_right.svg'
+import {Link} from 'react-router-dom';
 
 export default function BlogSection(){
     return(
@@ -24,10 +25,10 @@ export default function BlogSection(){
                 </div>
             </div>
             <div className={styles.nav_blog}>
-                <div>
-                    <div></div>    
-                    <a href="">Весь блог</a>
-                </div>
+                 <div className='link_blue'>
+                                <div></div>
+                                <Link className='link_blue_text' to="#">Весь блог</Link>
+                            </div>
                 <div>
                     <button className='b_left'><img src={arrow_left} alt="" /></button>
                     <button className='b_right'><img src={arrow_right} alt="" /></button>

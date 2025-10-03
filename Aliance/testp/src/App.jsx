@@ -94,6 +94,7 @@ export default function App() {
              <SingleBlock title="Автохимия AG_TECH"/>
               <MissionChim title={ag_tech.title} text1={ag_tech.text1} text2={ag_tech.text2} image={ag_tech.img}></MissionChim>
              <IconSection/>
+             <CenterSection></CenterSection>
               <StepSection></StepSection>
               <PartnerSection></PartnerSection>
               <OfferSection></OfferSection>

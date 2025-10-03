@@ -20,3 +20,25 @@ main{
   height: 2px;
   background-color: #5C8EE5;
 }
+
+.link_blue{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.link_blue div{
+    margin-right: 5px;
+    height: 1px;
+    width: 40px;
+    background-color: #5C8EE5;
+}
+.link_blue_text{
+    color: #5C8EE5;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(./fonts/Bebas/Bebas\ Neue\ Pro\ Regular.ttf);
+}

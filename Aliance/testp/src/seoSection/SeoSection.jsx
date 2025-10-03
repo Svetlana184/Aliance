@@ -1,5 +1,6 @@
 import styles from './SeoSection.module.css'
 import {seo} from '../data.js'
+import {Link} from 'react-router-dom';
 
 export default function SeoSection(){
     return(
@@ -7,7 +8,10 @@ export default function SeoSection(){
                             
            <h4 >{seo.title}</h4>
             <p>{seo.text}</p>
-            <a href="">Читать больше</a>
+             <div className='link_blue'>
+                                <div></div>
+                                <Link className='link_blue_text' to="#">Читать больше</Link>
+                            </div>
         </section>
     )
 }
