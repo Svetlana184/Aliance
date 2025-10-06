@@ -8,7 +8,6 @@
     
 }
 .error_sec{
-    width: 40%;
     height: 80vh;
     text-align: center;
     display: flex;
@@ -18,9 +17,13 @@
     margin-bottom: 10vh;
         color: #292D33;
 }
+.error_sec p{
+    width: 50%;
+}
 .error_sec h1{
     font-size: 300px;
     color: #5C8EE5;
+    text-align: center;
 }
 .error_sec h5{
 

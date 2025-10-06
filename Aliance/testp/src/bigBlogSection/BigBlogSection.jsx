@@ -21,6 +21,13 @@ export default function BigBlogSection(){
     return(
         <section className={styles.blog_section}>
                <ul className={styles.cards_ul}>{cards}</ul>
+               <ul className={styles.pages}>
+                 <button>1</button>
+                 <button>2</button>
+                 <button>3</button>
+                 <button>4</button>
+                 <button>5</button>
+               </ul>
         </section>
     )
 }

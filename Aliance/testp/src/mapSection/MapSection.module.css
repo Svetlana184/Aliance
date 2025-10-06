@@ -1,0 +1,12 @@
+.map_sec{
+    width: 80%;
+    height: 90vh;
+}
+.map_top{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

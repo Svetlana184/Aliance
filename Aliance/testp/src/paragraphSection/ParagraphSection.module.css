@@ -1,0 +1,26 @@
+.par_sec{
+    width: 80%;
+    height: 200vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+aside{
+    width: 20%;
+}
+.par_text{
+    color: #292D33;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.par_text h5{
+    font-size: 36px;
+}
+.par_text p{
+    font-size: 16px;
+}
+.par_text h6{
+    font-size: 20px;
+}

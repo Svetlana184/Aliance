@@ -8,7 +8,7 @@ export default function Footer(){
     return(
         <footer>
             <ul className="simp_ul">
-                 <a href="/"><img src={myLogo} alt="" /></a>
+                <Link to="/"><img src={myLogo} alt="" /></Link>
                 <p><b><u><span>+7 (499) 686-10-14</span></u></b></p>
                 <p><span>г. Москва, Холодильный пер. 4к1с8</span></p>
                 <p><span>a.dragunov@tdaliance.ru</span></p>

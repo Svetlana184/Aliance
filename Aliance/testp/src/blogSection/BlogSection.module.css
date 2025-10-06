@@ -19,11 +19,15 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.link_blog{
+     width: 40%;
+    height: 90%;
+}
 .blog_card1{
      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/blog_pic.png);
     background-repeat: no-repeat;
-    width: 40%;
-    height: 90%;
+   width: 100%;
+   height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -34,8 +38,8 @@
 .blog_card2{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/blog2.png);
     background-repeat: no-repeat;
-    width: 40%;
-    height: 90%;
+   width: 100%;
+   height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

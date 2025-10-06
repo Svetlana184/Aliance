@@ -39,6 +39,10 @@ main{
 }
 
 @font-face {
-  font-family: "Bebas Neue";
+  font-family: "NotoSans";
+  src: url(./fonts/NotoSans/NotoSansThaana-Black.ttf);
+}
+@font-face {
+  font-family: "Bebas";
   src: url(./fonts/Bebas/Bebas\ Neue\ Pro\ Regular.ttf);
 }

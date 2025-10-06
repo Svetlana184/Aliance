@@ -23,6 +23,8 @@ import CenterSection from './centerSection/CenterSection.jsx';
 import HimlistSection from './himlistSection/HimlistSection.jsx';
 import DistributeSection from './distributeSection/DistributeSection.jsx';
 import BigBlogSection from './bigBlogSection/BigBlogSection.jsx';
+import MapSection from './mapSection/MapSection.jsx';
+import ParagraphSection from './paragraphSection/ParagraphSection.jsx';
 
 import {mission2, chim, ag_tech, chim_create, mission1} from './data.js'
 
@@ -117,7 +119,9 @@ export default function App() {
           <main>
             <Header2/>
              <SingleBlock title="Современная методология разработки одухотворила всех причастных"/>
+             <ParagraphSection/>
               <BlogSection/>
+              
               <OfferSection/>
           </main>
         }/>
@@ -127,6 +131,7 @@ export default function App() {
              
             <Header2/>
             <SingleBlock title="Контакты"/>
+            <MapSection />
               <OfferSection/>
           </main>
         }/>
