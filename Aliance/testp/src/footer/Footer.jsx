@@ -45,7 +45,7 @@ export default function Footer(){
                     <Link className='li_link' to="/own_product"><b>Собственные марки</b></Link>
                     </li>
                     <li>
-                        <Link className='li_link' to="/product_ag-tech">Автохимия AG-Tech</Link>
+                        <Link className='li_link' to="/own_product/product_ag-tech">Автохимия AG-Tech</Link>
                     </li>
                     <li>
                         <Link className='li_link' to="/product_avtochim">Автохимия AP</Link>

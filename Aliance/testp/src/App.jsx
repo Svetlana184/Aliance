@@ -21,6 +21,8 @@ import IconSection from './iconSection/IconSection';
 import MissionChim from './missionChim/MissionChim';
 import CenterSection from './centerSection/CenterSection.jsx';
 import HimlistSection from './himlistSection/HimlistSection.jsx';
+import DistributeSection from './distributeSection/DistributeSection.jsx';
+import BigBlogSection from './bigBlogSection/BigBlogSection.jsx';
 
 import {mission2, chim, ag_tech, chim_create, mission1} from './data.js'
 
@@ -31,112 +33,114 @@ export default function App() {
         <Route path="/" element={
           <>
           <main>
-            <Header></Header>
-            <AboutSection></AboutSection>
-            <StepSection></StepSection>
-            <ContractSection></ContractSection>
-            <MarkSection></MarkSection>
-            <MissionSection title={mission2.title} text1={mission2.text1} text2={mission2.text2} image={mission2.img}></MissionSection>
-            <PartnerSection></PartnerSection>
-            <BlogSection></BlogSection>
-            <OfferSection></OfferSection>
+            <Header/>
+            <AboutSection/>
+            <StepSection/>
+            <ContractSection/>
+            <MarkSection/>
+            <MissionSection title={mission2.title} text1={mission2.text1} text2={mission2.text2} image={mission2.img}/>
+            <PartnerSection/>
+            <BlogSection/>
+            <OfferSection/>
             </main>
           </>
         }/>
         <Route path="/about" element={
           <main>
-              <Header2></Header2>
+              <Header2/>
               <SingleBlock title="о компании"/>
-              <ProductionSection></ProductionSection>
-              <IconSection></IconSection>
-              <MissionFactorySection title={mission1.title} text1={mission1.text1} text2={mission1.text2} img={mission1.img} ul1={mission1.ul1} ul2={mission1.ul2}></MissionFactorySection>
+              <ProductionSection/>
+              <IconSection/>
+              <MissionFactorySection title={mission1.title} text1={mission1.text1} text2={mission1.text2} img={mission1.img} ul1={mission1.ul1} ul2={mission1.ul2}/>
               <MissionSection title={mission2.title} text1={mission2.text1} text2={mission2.text2} image={mission2.img}></MissionSection>
-              <CenterSection></CenterSection>
-              <PartnerSection></PartnerSection>
+              <CenterSection/>
+              <PartnerSection/>
               
-              <OfferSection></OfferSection>
+              <OfferSection/>
           </main>
         }/>
         <Route path="/contract_product" >
               <Route index element={
                 <main>
-                <Header2></Header2>
+                <Header2/>
                 <SingleBlock title="Контрактное производство"/>
-                  <ContractSection></ContractSection>
-                  <SeoSection></SeoSection>
-                  <OfferSection></OfferSection>
+                  <ContractSection/>
+                  <SeoSection/>
+                  <OfferSection/>
               </main>
               }/>
               <Route path='avtohim' element={
                 <main>
-                <Header2></Header2>
+                <Header2/>
                 <SingleBlock title="Автомобильная химия"/>
-                <MissionChim title={chim.title} text1={chim.text1} text2={chim.text2} image={chim.img}></MissionChim>
+                <MissionChim title={chim.title} text1={chim.text1} text2={chim.text2} image={chim.img}/>
                 <IconSection/>
                 <MissionFactorySection title={chim_create.title} text1={chim_create.text1} text2={chim_create.text2} img={chim_create.img} ul1={chim_create.ul1} ul2={chim_create.ul2}></MissionFactorySection>
-                  <HimlistSection></HimlistSection>
+                  <HimlistSection/>
                   <CenterSection/>
-                  <StepSection></StepSection>
-                  <PartnerSection></PartnerSection>
-                  <OfferSection></OfferSection>
+                  <StepSection/>
+                  <PartnerSection/>
+                  <OfferSection/>
               </main>
               }/>
         </Route>
-         <Route path="/own_product" element={
-          <main>
-            <Header2></Header2>
+         <Route path="/own_product" >
+          <Route index element={ <main>
+            <Header2/>
              <SingleBlock title="Собственные торговые марки"/>
-              <MarkSection></MarkSection>
-              <OfferSection></OfferSection>
-          </main>
-        }/>
-        <Route path="/product_ag-tech" element={
+              <MarkSection/>
+              <OfferSection/>
+          </main>}/>
+          <Route path="product_ag-tech" element={
           <main>
-            <Header2></Header2>
+            <Header2/>
              <SingleBlock title="Автохимия AG_TECH"/>
-              <MissionChim title={ag_tech.title} text1={ag_tech.text1} text2={ag_tech.text2} image={ag_tech.img}></MissionChim>
+              <MissionChim title={ag_tech.title} text1={ag_tech.text1} text2={ag_tech.text2} image={ag_tech.img}/>
+              
              <IconSection/>
-             <CenterSection></CenterSection>
-              <StepSection></StepSection>
-              <PartnerSection></PartnerSection>
-              <OfferSection></OfferSection>
+             <DistributeSection/>
+             <CenterSection/>
+              <StepSection/>
+              <PartnerSection/>
+              <OfferSection/>
           </main>
-        }/>
-        <Route path="/blog" element={
-          <main>
-            <Header2></Header2>
+        } />
+        </Route>
+        <Route path="/blog">
+          <Route index element={  <main>
+            <Header2/>
              <SingleBlock title="Блог"/>
-              <BlogSection></BlogSection>
-              <OfferSection></OfferSection>
-          </main>
-        }/>
-         <Route path="/blog-more" element={
+              <BigBlogSection/>
+              <OfferSection/>
+          </main>}/>
+          <Route path="blog-more" element={
           <main>
-            <Header2></Header2>
+            <Header2/>
              <SingleBlock title="Современная методология разработки одухотворила всех причастных"/>
-              <BlogSection></BlogSection>
-              <OfferSection></OfferSection>
+              <BlogSection/>
+              <OfferSection/>
           </main>
         }/>
+        </Route>
         <Route path="/contact" element={
           <main>
              
-            <Header2></Header2>
+            <Header2/>
             <SingleBlock title="Контакты"/>
-              <OfferSection></OfferSection>
+              <OfferSection/>
           </main>
         }/>
         <Route path="/politics" element={
           <main>
-            <Header2></Header2>
+            <Header2/>
              <SingleBlock title="Политика конфиденциальности"/>
-             <PolSection></PolSection>
+             <PolSection/>
           </main>
         }/>
         <Route path="*" element={
           <main>
-            <Header2></Header2>
-            <ErrorSection></ErrorSection>
+            <Header2/>
+            <ErrorSection/>
           </main>
         }/>
       </Routes>
