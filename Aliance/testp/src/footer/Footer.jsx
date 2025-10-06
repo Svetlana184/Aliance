@@ -9,9 +9,9 @@ export default function Footer(){
         <footer>
             <ul className="simp_ul">
                  <a href="/"><img src={myLogo} alt="" /></a>
-                <p>+7 (499) 686-10-14</p>
-                <p>г. Мосвка, Холодильный пер. 4к1с8</p>
-                <p>a.dragunov@tdaliance.ru</p>
+                <p><b><u><span>+7 (499) 686-10-14</span></u></b></p>
+                <p><span>г. Москва, Холодильный пер. 4к1с8</span></p>
+                <p><span>a.dragunov@tdaliance.ru</span></p>
             </ul>
             <div className='foot_main'>
                 <ul>
@@ -19,7 +19,7 @@ export default function Footer(){
                         <Link className='li_link' to="/contract_product"><b>Контрактное производство</b></Link>
                     </li>
                     <li>
-                        <Link className='li_link' to="/product_avtohim">Автомобильная химия</Link>
+                        <Link className='li_link' to="/contract_product/avtohim">Автомобильная химия</Link>
                     </li>
                     <li>
                         <Link className='li_link' to="#">Бытовая химия</Link>
@@ -30,6 +30,7 @@ export default function Footer(){
                 </ul>
                 <ul>
                 <li>
+                     <br />
                     <Link className='li_link' to="#">Пищевые аэрозоли</Link>
                     </li>
                     <li>

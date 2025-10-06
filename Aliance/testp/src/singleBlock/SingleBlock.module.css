@@ -23,11 +23,13 @@
 .single_block ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 15%;
 }
-.single_block a{
+.single_block ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.link_s p{
     color: black;
     text-decoration: none;
     text-transform: capitalize;

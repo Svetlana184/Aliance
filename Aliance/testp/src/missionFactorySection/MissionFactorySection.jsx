@@ -1,9 +1,17 @@
 import styles from './MissionFactorySection.module.css'
 
-export default function MissionFactorySection({title, text1,text2, ul, img='../assets/about_2.png'}){
-    const ul_factory = ul.map((index)=>(
+export default function MissionFactorySection({title, text1,text2, ul1, ul2, img='../assets/about_2.png'}){
+    const ul_factory1 = ul1.map((index)=>(
         <li key={index}>
-            {index}
+            <img src={index.img} alt="" />
+            <p> {index.title}</p>
+        </li>
+    ));
+    const ul_factory2 = ul2.map((index)=>(
+        <li key={index}>
+            <img src={index.img} alt="" />
+            <p> {index.title}</p>
+           
         </li>
     ));
     return(
@@ -18,7 +26,11 @@ export default function MissionFactorySection({title, text1,text2, ul, img='../a
                         <p>
                             {text2}
                         </p>
-                        <ul className={styles.factory_ul}>{ul_factory}</ul>
+                        <div className={styles.ul_pr}>
+                            <ul className={styles.factory_ul}>{ul_factory1}</ul>
+                            <ul className={styles.factory_ul}>{ul_factory2}</ul>
+                        </div>
+                        
                     </div>
                      <img src={img} alt="" />
                 </section>

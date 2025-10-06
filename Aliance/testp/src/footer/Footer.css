@@ -4,6 +4,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: black;
 }
 .simp_ul{
     width: 100%;
@@ -19,12 +20,31 @@ footer{
     justify-content: space-around;
     align-items: center;
     height: 60%;
+    border-top: #EBEBF0 1px solid;
+    border-bottom: #EBEBF0 1px solid;
+}
+.foot_main ul{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .li_link{
-    color: black;
+    color: #828A99;
     text-decoration: none;
 }
+.li_link b{
+    color: black;
+}
 .simp_ul a{
+    color: #828A99;
+    text-decoration: none;
+}
+.simp_ul p{
+    color: #828A99;
+    text-decoration: none;
+}
+.simp_ul span{
     color: black;
     text-decoration: none;
 }

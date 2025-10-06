@@ -24,13 +24,31 @@
 .pr_section p{
     color: #828A99;
 }
-.factory_ul{
-    width: 80%;
+
+.ul_pr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35%;
+    width: 100%;
+}
+.ul_pr ul{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 40%;
 }
-.factory_ul li{
-    width: 50%;
-    height: 25%;
+.ul_pr ul li{
+     display: flex;
+    flex-direction: row;
+}
+.ul_pr ul li img{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+.ul_pr ul li p{
+    color: black;
 }
