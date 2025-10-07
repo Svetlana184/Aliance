@@ -1,5 +1,5 @@
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
-import './App.css'
+import './App.scss'
 import AboutSection from './aboutSection/AboutSection.jsx'
 import StepSection from './stepSection/StepSection'
 import PartnerSection from './partnerSection/PartnerSection'

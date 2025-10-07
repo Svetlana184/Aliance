@@ -1,0 +1,48 @@
+*,* {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_block_blue{
+  font-size: 50px;
+  color: #292D33;
+  text-transform: uppercase;
+}
+.title_block_blue_div{
+  width: 150px;
+  height: 2px;
+  background-color: #5C8EE5;
+}
+
+.link_blue{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.link_blue div{
+    margin-right: 5px;
+    height: 1px;
+    width: 40px;
+    background-color: #5C8EE5;
+}
+.link_blue_text{
+    color: #5C8EE5;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  src: url(./fonts/NotoSans/NotoSansThaana-Black.ttf);
+}
+@font-face {
+  font-family: "Bebas";
+  src: url(./fonts/Bebas/Bebas\ Neue\ Pro\ Regular.ttf);
+}
