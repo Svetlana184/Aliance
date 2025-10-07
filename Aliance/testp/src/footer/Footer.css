@@ -48,3 +48,8 @@ footer{
     color: black;
     text-decoration: none;
 }
+
+.contacts_footer{
+    display: flex;
+    flex-direction: row;
+}

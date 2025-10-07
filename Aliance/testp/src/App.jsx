@@ -50,7 +50,7 @@ export default function App() {
         <Route path="/about" element={
           <main>
               <Header2/>
-              <SingleBlock title="о компании"/>
+              <SingleBlock title="о компании" links={[{text:"Главная", path:"/"}, {text:"О компании", path:"#"},]}/>
               <ProductionSection/>
               <IconSection/>
               <MissionFactorySection title={mission1.title} text1={mission1.text1} text2={mission1.text2} img={mission1.img} ul1={mission1.ul1} ul2={mission1.ul2}/>
@@ -65,7 +65,7 @@ export default function App() {
               <Route index element={
                 <main>
                 <Header2/>
-                <SingleBlock title="Контрактное производство"/>
+                <SingleBlock title="Контрактное производство" links={[{text:"Главная", path:"/"}, {text:"Контрактное производство", path:"#"},]}/>
                   <ContractSection/>
                   <SeoSection/>
                   <OfferSection/>
@@ -74,7 +74,7 @@ export default function App() {
               <Route path='avtohim' element={
                 <main>
                 <Header2/>
-                <SingleBlock title="Автомобильная химия"/>
+                <SingleBlock title="Автомобильная химия" links={[{text:"Главная", path:"/"}, {text:"Контрактное производство", path:"/contract_product"},  {text:"Автомобильная химия", path:"#"}]}/>
                 <MissionChim title={chim.title} text1={chim.text1} text2={chim.text2} image={chim.img}/>
                 <IconSection/>
                 <MissionFactorySection title={chim_create.title} text1={chim_create.text1} text2={chim_create.text2} img={chim_create.img} ul1={chim_create.ul1} ul2={chim_create.ul2}></MissionFactorySection>
@@ -89,14 +89,14 @@ export default function App() {
          <Route path="/own_product" >
           <Route index element={ <main>
             <Header2/>
-             <SingleBlock title="Собственные торговые марки"/>
+             <SingleBlock title="Собственные торговые марки" links={[{text:"Главная", path:"/"}, {text:"Собственные торговые марки", path:"#"}]}/>
               <MarkSection/>
               <OfferSection/>
           </main>}/>
           <Route path="product_ag-tech" element={
           <main>
             <Header2/>
-             <SingleBlock title="Автохимия AG_TECH"/>
+             <SingleBlock title="Автохимия AG_TECH" links={[{text:"Главная", path:"/"}, {text:"Собственные торговые марки", path:"/own_product"}, {text:"Автохимия AG_TECH", path:"#"}]}/>
               <MissionChim title={ag_tech.title} text1={ag_tech.text1} text2={ag_tech.text2} image={ag_tech.img}/>
               
              <IconSection/>
@@ -111,16 +111,16 @@ export default function App() {
         <Route path="/blog">
           <Route index element={  <main>
             <Header2/>
-             <SingleBlock title="Блог"/>
+             <SingleBlock title="Блог" links={[{text:"Главная", path:"/"}, {text:"Блог", path:"#"}]}/>
               <BigBlogSection/>
               <OfferSection/>
           </main>}/>
           <Route path="blog-more" element={
           <main>
             <Header2/>
-             <SingleBlock title="Современная методология разработки одухотворила всех причастных"/>
+             <SingleBlock title="Современная методология разработки одухотворила всех причастных" links={[{text:"Главная", path:"/"}, {text:"Блог", path:"/blog"}, {text:"Современная методология разработки одухотворила всех причастных", path:"#"}]}/>
              <ParagraphSection/>
-              <BlogSection/>
+              <BlogSection title='Также вас может заинтересовать'/>
               
               <OfferSection/>
           </main>
@@ -130,7 +130,7 @@ export default function App() {
           <main>
              
             <Header2/>
-            <SingleBlock title="Контакты"/>
+            <SingleBlock title="Контакты" links={[{text:"Главная", path:"/"}, {text:"Контакты", path:"#"}]}/>
             <MapSection />
               <OfferSection/>
           </main>
@@ -138,7 +138,7 @@ export default function App() {
         <Route path="/politics" element={
           <main>
             <Header2/>
-             <SingleBlock title="Политика конфиденциальности"/>
+             <SingleBlock title="Политика конфиденциальности" links={[{text:"Главная", path:"/"}, {text:"Политика конфиденциальности", path:"#"}]}/>
              <PolSection/>
           </main>
         }/>

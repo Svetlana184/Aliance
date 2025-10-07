@@ -9,8 +9,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .cards{
    height: 60%;
@@ -49,9 +49,11 @@
 }
 .blog_card1 h5{
     font-size: 28px;
+    text-decoration: none;
 }
 .blog_card2 h5{
     font-size: 28px;
+    text-decoration: none;
 }
 
 .blog_section button{

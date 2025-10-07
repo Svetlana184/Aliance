@@ -2,6 +2,10 @@ import { Link} from 'react-router-dom';
 
 import './Footer.css'
 import myLogo from '../assets/logo_black.svg'
+import mark from '../assets/contact_icons/mark.svg'
+import mail from '../assets/contact_icons/mail.svg'
+import inst from '../assets/contact_icons/inst.svg'
+import vk from '../assets/contact_icons/vk.svg'
 
 
 export default function Footer(){
@@ -9,9 +13,22 @@ export default function Footer(){
         <footer>
             <ul className="simp_ul">
                 <Link to="/"><img src={myLogo} alt="" /></Link>
+                
                 <p><b><u><span>+7 (499) 686-10-14</span></u></b></p>
-                <p><span>г. Москва, Холодильный пер. 4к1с8</span></p>
-                <p><span>a.dragunov@tdaliance.ru</span></p>
+                <div className='contacts_footer'>
+                    <img src={mark} alt="" />
+                    <p><span>г. Москва, Холодильный пер. 4к1с8</span></p>
+                </div>
+                <div className='contacts_footer'>
+                    <img src={mail} alt="" />
+                     <p><span>a.dragunov@tdaliance.ru</span></p>
+                </div>
+                <div>
+                    <img src={vk} alt="" />
+                    <img src={inst} alt="" />
+                </div>
+                
+               
             </ul>
             <div className='foot_main'>
                 <ul>

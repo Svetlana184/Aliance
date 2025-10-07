@@ -1,6 +1,8 @@
 .map_sec{
     width: 80%;
     height: 90vh;
+     margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .map_top{
     width: 100%;
@@ -9,4 +11,17 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.phone{
+    font-size: 48px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+.map_img{
+    display: flex;
+    align-self: center;
+    justify-self: center;
 }

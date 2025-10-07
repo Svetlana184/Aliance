@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+     margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .him_sec p{
     color: #828A99;

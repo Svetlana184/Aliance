@@ -6,6 +6,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+     margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .big_pic{
     width: 720px;

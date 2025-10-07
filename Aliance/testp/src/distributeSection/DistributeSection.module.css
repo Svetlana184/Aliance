@@ -5,6 +5,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+     margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .dist_p{
     color: #828A99;

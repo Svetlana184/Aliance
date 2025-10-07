@@ -3,12 +3,12 @@ import arrow_left from '../assets/arrow_to_left.svg'
 import arrow_right from '../assets/arrow_to_right.svg'
 import {Link} from 'react-router-dom';
 
-export default function BlogSection(){
+export default function BlogSection({title="Блог экспертов в области производства"}){
     return(
         <section className={styles.blog_section}>
              <div className="title_block_blue">
                             <div className='title_block_blue_div'></div>
-                            <h3 >Блог экспертов в области производства</h3>
+                            <h3 >{title}</h3>
                         </div>
             <div className={styles.cards}>
                 <Link className={styles.link_blog} to="/blog/blog-more">

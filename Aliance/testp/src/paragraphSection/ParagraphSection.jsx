@@ -1,10 +1,22 @@
 import styles from './ParagraphSection.module.css'
 import pic from '../assets/blog-more.png'
+import vk from '../assets/contact_icons/vk.svg'
+import facebook from '../assets/contact_icons/facebook.svg'
+import google from '../assets/contact_icons/google-plus.svg'
+import twitter from '../assets/contact_icons/twitter.svg'
 
 export default function ParagraphSection(){
     return(
         <section className={styles.par_sec}>
-            <aside></aside>
+            <aside>
+                <p>Поделиться</p>
+                <div>
+                    <button><img src={vk} alt="" /></button>
+                    <button><img src={facebook} alt="" /></button>
+                    <button><img src={twitter} alt="" /></button>
+                    <button><img src={google} alt="" /></button>
+                </div>
+            </aside>
             <div className={styles.par_text}>
                 <h5>Реализация намеченных плановых заданий</h5>
                 <p>Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же укрепление и развитие структуры в значительной степени обуславливает создание форм развития. С другой стороны укрепление и развитие структуры способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач.</p>
